@@ -14,7 +14,11 @@ const ProfileCard = () => {
 
 	return (
 		<div>
-			<div style={styles}>new change for life when is go new jurany</div>
+			<div
+				style={(styles, { colorRendering: "auto", backgroundColor: "teal" })}
+			>
+				new change for life when is go new jurany
+			</div>
 			<FaBeer size={"30px"} color="red" />
 			<TbCarTurbine color="blue" size={40} />
 		</div>
